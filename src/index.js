@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import First from './components/First';
+import WithParameter from './components/WithParameter';
 import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <h1>Hi there</h1>
-  </React.StrictMode>,
+  <div>
+    <First />
+    <WithParameter title='Title' subtitle='Subtitle' />
+  </div>,
   document.getElementById('root')
 );
