@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import First from './components/First';
-import WithParameter from './components/WithParameter';
+import App from './App';
 import './index.css';
 
 ReactDOM.render(
   <div>
-    <First />
-    <WithParameter title='Title' subtitle='Subtitle' />
+    <App />
   </div>,
   document.getElementById('root')
 );

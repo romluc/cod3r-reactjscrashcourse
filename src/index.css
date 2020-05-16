@@ -11,10 +11,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 h1,
-h2 {
+h2,
+h3,
+span {
   margin: 0.5rem;
 }
