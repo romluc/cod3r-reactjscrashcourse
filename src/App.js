@@ -3,6 +3,7 @@ import First from './components/First';
 import WithParameter from './components/WithParameter';
 import WithChildren from './components/WithChildren';
 import Card from './components/Card';
+import Repetition from './components/Repetition';
 
 import './App.css';
 
@@ -22,6 +23,9 @@ export default (props) => (
           <li>Child 3</li>
         </ul>
       </WithChildren>
+    </Card>
+    <Card title='#4 - Iteration with map'>
+      <Repetition />
     </Card>
   </div>
 );
