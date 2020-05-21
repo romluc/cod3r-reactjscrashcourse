@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pencil",
+      "price": 6.99
+    },
+    {
+      "name": "hat",
+      "price": 10.99,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Fancy Pen",
+      "price": 18.99
+    }
+  ]
+}

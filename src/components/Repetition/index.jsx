@@ -1,20 +1,27 @@
 import React from 'react';
-import products from '../../data/products';
+
+function getProducts() {
+  fetch('db.json')
+    .then((res) => res.json())
+    .then((data) => console.log(data));
+}
+
+getProducts();
 
 const Repetition = (props) => {
-  function getProducts() {
-    return products.map((prod) => (
-      <li key={prod.id}>
-        {prod.id} - {prod.name} => CAD
-        {prod.price}
-      </li>
-    ));
-  }
-
   return (
     <div>
       <h2>Repetition</h2>
-      <ul>{getProducts()}</ul>
+      <ul>
+        {/* {getProducts().then((data) => {
+          data.map((prod) => (
+            <li key={prod.id}>
+              {prod.id} - {prod.name} => CAD
+              {prod.price}
+            </li>
+          ));
+        })} */}
+      </ul>
     </div>
   );
 };
