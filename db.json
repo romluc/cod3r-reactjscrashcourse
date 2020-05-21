@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Fancy Pen",
       "price": 18.99
+    },
+    {
+      "id": 7,
+      "name": "Coffee",
+      "price": 2.99
     }
   ]
 }
