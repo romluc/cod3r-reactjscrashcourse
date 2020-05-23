@@ -3,8 +3,10 @@ import Child from './Child';
 
 export default (props) => (
   <div>
-    <Child surname='Doe'>John</Child>
-    <Child surname='Doe'>Jane</Child>
+    <Child {...props}>
+      <strong>John</strong>
+    </Child>
+    <Child surname={props.surname}>Jane</Child>
     <Child surname='Doe'>David</Child>
   </div>
 );

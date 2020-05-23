@@ -4,6 +4,7 @@ import WithChildren from './components/WithChildren';
 import Card from './components/Card';
 import Repetition from './components/Repetition';
 import Father from './components/Direct/Father';
+import Super from './components/Indirect/Super';
 
 import './App.css';
 
@@ -28,7 +29,10 @@ export default (props) => (
       <Repetition />
     </Card>
     <Card title='#7 - Direct communication' color='#f6d198'>
-      <Father />
+      <Father surname='Knope' />
+    </Card>
+    <Card title='#8 - Indirect communication' color='#6685cc'>
+      <Super />
     </Card>
   </div>
 );
